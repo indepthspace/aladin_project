@@ -7,7 +7,6 @@
   position: relative;
 }
 
-
 .frame-1 .logo img {
   width: 80px;
   height: 40px;
@@ -18,13 +17,13 @@
 
 .gnb {
   justify-content: right;
-  margin-top: 35px;
+  margin-top: 32px;
   margin-left: 70%;
 }
 
 .gnb ul {
   position: absolute;
-  right: 20%;
+  right: 25%;
   display: flex;
   gap: 30px;
 }
@@ -319,9 +318,10 @@
 .best .best-list-wrap {
   display: flex;
   padding: 150px 0;
+  justify-content: space-between;
 }
 .best .best-list-wrap .best-view {
-  width: 40%;
+  width: 35%;
 }
 
 .best .best-list-wrap .best-list {
@@ -369,21 +369,120 @@
   color: #fff;
   text-align: center;
   background-color: #ff0000;
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 3px ;
   width: 40px;
   height: 40px;
   position: absolute;
-  left: 280px;
-  bottom: -218px;
+  bottom: 25px;
+}
+.sblack2 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack4 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack5 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack6 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack7 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack8 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack9 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
+}
+.sblack10 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 3px ;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 25px;
 }
 
 .best-view{
-  padding-left: 180px;
+  padding-left: 10%;
 }
 
 .s-view .swiper-slide img{
   border-radius: 0px 15px 15px 0px;
-  height: 516px;
+  width: 100%;
+  /* height: 516px; */
   position: relative;
   object-fit: cover;
 }
@@ -403,7 +502,7 @@
   font-size: 30px;
   font-weight: 400;
   text-align: center;
-  margin-right: 185px;
+  /* margin-right: 185px; */
 }
 
 .artist{
@@ -411,7 +510,7 @@
   font-size: 25px;
   font-weight: 400;
   text-align: center;
-  margin-right: 185px;
+  /* margin-right: 185px; */
   padding-top: 10px;
 }
 
@@ -566,6 +665,10 @@
   padding-left: 660px;
 }
 
+.banner1 img{
+    width: 100%;
+  }
+
 .banner2{
   padding-top: 500px;
   display: flex;
@@ -573,7 +676,7 @@
 .banner2 img{
   border: 1px solid #000;
   width: 100%;
-  height: 100%;
+  height: 273px;
 }
 .banner2 img:nth-child{
   width: auto;
@@ -745,9 +848,7 @@ footer{
   .search01 .search-box{
     padding-bottom: 200px;
   }
-  .banner1 img{
-    width: 1020px;
-  }
+  
   .banner2 img{
     height: 150px;
   }
@@ -757,17 +858,17 @@ footer{
   }
 
   .best .best-list-wrap {
-    padding: 50px 0;
+    padding: 50px 20px;
   }
 
   .best .best-list-wrap .best-view {
-    align-items: start;
-    width: 80%;
+    width: 40%;
+    padding-left: 50px;
   }
 
   .best .best-list-wrap .best-list {
     align-items: flex-start;
-    width: 100%;
+    /* width: 100%; */
   }
   
   .gift{
@@ -781,14 +882,14 @@ footer{
   .gift-down > a{
     position: absolute;
     left: 650px;
-    bottom: -107%;
+    bottom: -138%;
     padding-top: 0px;
   }
 
   .gift h5{
     position: absolute;
     left: 100px;
-    bottom: -115%;
+    bottom: -147%;
     padding-top: 0px;
   }
 
@@ -805,9 +906,9 @@ footer{
     padding-top: 20px;
   }
 
-  .card-down img {
-    left: 75%;
-    top: 2800px;
+  .card-down a img{
+    left: 80%;
+    top: 2780px;
   }
 
   .top-aladin {
@@ -898,10 +999,127 @@ footer{
     left: 280px;
     bottom: -218px;
   }
+
+  .rectangle{
+    background-color: #EDEDED;
+    border-radius: 30px;
+    width: 750px;
+    height: 793px;
+    margin-right: 150px;
+  }
+
+  .card h4{
+    font-size: 30px;
+  }
+
+  .red{
+    gap: 40px;
+    padding-top: 50px;
+    padding-left: 70px;
+  }
+
+  .red-txt{
+    color: #da5a47;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  .black-txt {
+    font-size: 15px;
+    padding-left: 130px;
+    padding-bottom: 50px;
+  }
+
+  .card-view{
+    padding-top: 100px;
+  }
+
+  .c-view{
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .coffee button{
+    font-size: 18px;
+    font-weight: 400;
+    width: 110px;
+    height: 60px; 
+  }
+
+
+  .h-view img{
+    width: 180px;
+    height: 260px;
+  }
+
+
+  .hangang .gray{
+    background-color: #EDEDED;
+    border-radius: 500px 0 0 500px;
+    width: 100%;
+    height: 500px;
+  }
+
+  .hangang-view{
+    padding-top: 110px;
+  }
+
+  .hangang-name{
+    font-size: 2rem;
+    padding: 20px 30px 0 0 ;
+  }
+  /* footer */
+
+  .f-flex{
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .footerlogo{
+    width: 100%;
+  }
+  .f-sns{
+    padding-right: 0px;
+    display: flex;
+    gap: 10px;
+  }
+  .f-sns li{
+    padding-right: 0px;
+  }
+
+  footer{
+    padding-bottom: 40px;
+  }
+
+  .f-link02, .f-link03, .tel{
+    width: 33%;
+  }
+
 }
 
 
 @media (max-width: 765px){
+  .best h3{
+    font-size: 4rem;
+  }
+  .gift h3{
+    font-size: 4rem;
+  }
+  .card h3{
+    font-size: 4rem;
+  }
+  .coffee h3{
+    font-size: 4rem;
+  }
+  .hangang h3{
+    font-size: 4rem;
+  }
+  .card h4{
+    font-size: 2.2rem;
+  }
+  
   .top{
     padding-bottom: 800px;
   }
@@ -961,7 +1179,73 @@ footer{
     left: calc(50% - -135px);
     top: calc(50% - -102.5px);
   }
+  .gift-down > a{
+    left: 550px;
+    bottom: -132%;
+  }
+  .gift h5{
+    left: 100px;
+    font-size: 1.5rem;
+    bottom: -138%;
+    padding-top: 0px;
+  }
 
+  .gift-txt{
+    padding: 20px 0;
+    font-size: 1.5rem;
+  }
+
+  .card-down a img{
+    left: 85%;
+    top: 2995px;
+  }
+  
+  .rectangle{
+    width: 650px;
+    height: 793px;
+  }
+
+  .red{
+    gap: 25px;
+    padding-left: 90px;
+  }
+
+  .red-txt{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .black-txt {
+    font-size: 14px;
+    padding-left: 130px;
+    padding-bottom: 50px;
+  }
+  
+  .bean-name{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .bean-txt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 40px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .coffee .b-view .swiper-slide{
+    transform: scale(0.5);
+    transition: all 0.5;
+  }
+  .coffee .b-view .swiper-slide-active{
+    transform: scale(0.8);
+  }
 
 
 

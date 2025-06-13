@@ -21,7 +21,7 @@ $(document).ready(function(){ //시작
   var slist = new Swiper(".s-list", {
     loop: true,
     spaceBetween: 30,
-    slidesPerView: 4,
+    slidesPerView: 2,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -29,6 +29,13 @@ $(document).ready(function(){ //시작
     thumbs: {
       swiper: sview,
     },
+    breakpoints: {
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 28,
+      },
+    },
+
   });
 
   var gift = new Swiper(".g-view", {
@@ -87,6 +94,17 @@ $(document).ready(function(){ //시작
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints: {
+      765: {
+        slidesPerView: 4,
+        spaceBetween: 28,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 28,
+      },
     },
   });
 
